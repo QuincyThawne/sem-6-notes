@@ -1,0 +1,27 @@
+UNIT I INTRODUCTION TO BLOCKCHAIN                                                                  
+
+History of Blockchain – Types of Blockchain – Consensus – Decentralization using Blockchain – 
+Blockchain and Full Ecosystem Decentralization – Platforms for Decentralization – Symmetric 
+Cryptography - Mathematics – Asymmetric Cryptography – public and private keys – Elliptic curve 
+cryptography – Discrete logarithm problem in ECC. 
+
+UNIT II INTRODUCTION TO CRYPTOCURRENCY 
+
+Bitcoin – Digital Keys and Addresses – Transactions – Mining – Bitcoin Networks and Payments Wallets 
+– innovation in Bitcoin – Alternative Coins – Theoretical Foundations – Bitcoin. 
+
+UNIT III ETHEREUM 
+
+The Ethereum Network – Components of Ethereum Ecosystem – Ethereum Programming 
+Languages: Runtime Byte Code – Blocks and Blockchain – Fee Schedule – Supporting Protocols – Solidity 
+Language. 
+
+UNIT IV WEB3 AND HYPERLEDGER                                                                        
+
+Introduction to Web3 – Contract Deployment – POST Requests – Development frameworks 
+Hyperledger as a protocol – The Reference Architecture – Hyperledger Fabric – Distributed Ledger – 
+Corda. 
+
+UNIT V ALTERNATIVE BLOCKCHAINS AND NEXT EMERGING TRENDS            
+
+Kadena – Ripple- Rootstock – Quorum – Tendermint – Scalability – Privacy – Other Challenges –Blockchain Research.  

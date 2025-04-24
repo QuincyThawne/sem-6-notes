@@ -1,0 +1,35 @@
+UNIT 1
+
+Introduction to Finite Automata: Structural Representations, Automata and Complexity, the Central Concepts of Automata Theory– Alphabets, Strings, Languages, Problems.
+
+Nondeterministic Finite Automata: Formal Definition, an application, Text Search, Finite Automata with Epsilon-Transitions. Deterministic Finite Automata: Definition of DFA, How A DFA Process Strings, The language of DFA, Conversion of NFA with €-transitions to NFA
+without €-transitions. Conversion of NFA to DFA.
+
+UNIT 2
+
+Regular Expressions: Finite Automata and Regular Expressions, Applications of Regular Expressions, Algebraic Laws for Regular Expressions, Conversion of Finite Automata to Regular Expressions. 
+
+Pumping Lemma for Regular Languages: Statement of the pumping
+lemma, Applications of the Pumping Lemma.
+
+Context-Free Grammars: Definition of Context-Free Grammars, Derivations Using a Grammar, Leftmost and Rightmost Derivations, the Language of a Grammar, Parse Trees, Ambiguity in Grammars and Languages
+
+UNIT 3
+
+Push Down Automata: Definition of the Pushdown Automaton, the Languages of a PDA, Equivalence of PDA and CFG’s, Acceptance by final state
+
+Turing Machines: Introduction to Turing Machine, Formal Description, Instantaneous description, The language of a Turing machine .
+
+UNIT 4
+
+ Introduction: The structure of a compiler,
+ Lexical Analysis: The Role of the Lexical Analyzer, Input Buffering, Recognition of Tokens, The Lexical- Analyzer Generator Lex,
+
+ Syntax Analysis: Introduction, Context-Free Grammars, Writing a Grammar, Top-Down Parsing, Bottom- Up Parsing, Introduction to LR 
+Parsing: Simple LR, More Powerful LR Parsers, Parser Generators YACC.
+
+UNIT 5
+
+ Code generation and optimization: Issues in the design of code generator, a simple code generator,  Introduction  to  code  optimization,  Basic  blocks  &  flow  graphs,  DAG  representation  of  basic  blocks,  Peephole  optimization,  the  principle  sources  of 
+optimization 
+

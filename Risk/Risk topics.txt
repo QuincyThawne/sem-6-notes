@@ -1,0 +1,30 @@
+UNIT I 
+ 
+Governance risk management and compliance-Landscape of cyber security-Cyber  
+security leadership: Insights and Best Practices-Cyber Security Program and Project 
+Management- Cyber Security for Business Executives-Cyber Security and Board of 
+Directors. 
+
+UNIT II 
+
+Sequence-of-Events Model- Organizational Strategic Governance Framework,  Business 
+Continuity Management Planning Framework- Integrated Governance Mechanism- 
+Governance and Compliance Decision Making Process- Integrated Security Mechanism 
+ 
+UNIT III
+ 
+Risk Management- NIST Risk Management framework- Cybersecurity Metrics-Risk 
+Assessments- NIST Cybersecurity Framework- Cyber Security Frameworks-NIST SP 800-53
+: Security and Privacy- Risk Mitigation 
+ 
+UNIT IV  
+
+The FFEIC: An Introduction-US Federal Cyber Security Regulations-State level Cyber 
+Security Regulations- International Cyber Security Laws and Regulations-Privacy Laws 
+and their intersection with cyber security. 
+
+UNIT V  
+
+Auditing Cyber Security: Guides for Authors- The Challenging role of the Regulator- 
+Managing Regulatory Visits and Requests- Understanding Regulatory Penalties- 
+Addressing and Remediating Regulatory Findings- Cyber Security Architecture

@@ -1,0 +1,39 @@
+UNIT I
+
+Introduction to IOT, What is IIOT? IOT Vs. IIOT, History of IIOT, Components of IIOT
+Sensors,Interface, Networks, People Process, Hype cycle, IOT Market, Trends; future Real life
+examples,Key terms IOT Platform, Interfaces, API, clouds, Data Management Analytics,
+Mining Manipulation;Role of IIOT in Manufacturing Processes, Use of IIOT in plant
+maintenance practices, Sustainability through Business excellence tools Challenges, Benefits
+in implementing IIOT
+
+UNIT II 
+
+Overview of IOT components; Various Architectures of IOT and IIOT, Advantages
+&disadvantages,Industrial Internet- Reference Architecture; IIOT System components:
+Sensors, Gateways, Routers,Modem, Cloud brokers, servers and its integration, WSN, WSN
+network design for IOT; Need for protocols, Wi-Fi, Zigbee, Bacnet, IIOT protocols COAP,
+MQTT, 6LoWPAN, LWM2M,AMPQ.
+
+UNIT III
+
+Introduction to sensors, Transducers, Classification, Roles of sensors in IIOT , Various types
+of sensors ,Design of sensors, sensor architecture, special requirements for IIOT sensors,
+Role of actuators, types of actuators. Hardwire the sensors with different protocols such as
+HART, MODBUS-Serial,Parallel,Ethernet, BACNet , Current, M2M
+
+UNIT IV
+
+IIOT cloud platforms: Overview of cots cloud platforms, predix, thingworks, azure,. Data
+analytics, cloud services, Business models: Saas, Paas, Iaas; Introduction to web security,
+Conventional web technology and relationship with IIOT, Vulnerabilities of IoT, IoT security
+tomography and layered attacker model,Identity establishment, Access control, Message
+integrity; Management aspects of cyber security
+
+UNIT V
+
+IOT Analytics : Role of Analytics in IOT, Data visualization Techniques, Statistical Methods;
+IOT Applications : Smart Metering, e-Health Body Area Networks, City Automation,
+Automotive Applications, Plant Automation, Real life examples of IIOT in Manufacturing
+Sector
+

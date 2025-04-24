@@ -1,0 +1,26 @@
+UNIT I  INTRODUCTION TO SECURITY IN CLOUD 
+ 
+Introduction to Security, Security in the Cloud, Security design principles, Shared responsibility model, Activity: Shared Responsibility Model, Identity and Access Management (IAM) fundamentals, Authenticating and Authorizing with IAM, Examples of authorizing with IAM, Additional authentication and access management services, Using Organizations. 
+
+UNIT II  SECURING INFRASTRUCTURE 
+ 
+Structure of a three-tier web application, virtual private cloud (VPC), 
+Setting up public and private subnets and internet protocols, Security 
+groups, Network access control lists (ACLs), Load balancers, Protecting 
+compute resources- Cloud service models: IaaS, PaaS, SaaS.  
+
+UNIT III  INCIDENT RESPONSE AND RISK MANAGEMENT 
+ 
+Identifying an incident, Services that support the discovery and recognition phase, AWS Config and AWS Lambda, Services that support the resolution and recovery phase, Best practices for handling an incident. 
+ 
+UNIT IV  SECURING CLOUD: DATA SECURITY 
+
+Overview of Data Security in Cloud Computing- Common Risks with Cloud 
+Data Security- Data Encryption: Applications and Limits- Cloud Data 
+Security: Sensitive Data Categorization- Authentication and Identity- Data Categorization and the Use of Data Labels- Cloud Data Storage. 
+
+UNIT V  DATABASE SECURITY 
+
+Database Security: Recent Advances in Access Control, Access Control 
+Models for XML, Database Issues in Trust Management and Trust 
+Negotiation, Security in Data Warehouses and OLAP Systems. 
