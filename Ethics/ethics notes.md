@@ -41,7 +41,7 @@ The unit includes **case studies** that reflect real-life ethical dilemmas:
 ---
 
 
-### 🔹 **Identified Topics in Unit II – Engineering Ethics**
+### 🔹 **Unit II – Engineering Ethics**
 
 1. **Senses of Engineering Ethics**
 
