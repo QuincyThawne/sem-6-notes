@@ -218,3 +218,222 @@ The **Android file system** includes partitions like `/system`, `/data`, `/cache
 
 ---
 
+# OXYGEN OS
+
+**OxygenOS** is a custom Android-based operating system developed by **OnePlus** for its smartphones. It's known for delivering a **close-to-stock Android experience** with added features that enhance performance, customization, and user control.
+
+---
+
+### ✅ **Key Features of OxygenOS:**
+
+1. **Lightweight & Fast:**
+
+   * Minimal bloatware and optimized performance.
+   * Closer to Google’s stock Android UI with added enhancements.
+
+2. **Customization:**
+
+   * Offers features like system-wide dark mode, customizable gestures, accent colors, icon packs, and font changes.
+   * Shelf (OnePlus's custom widget screen) and Zen Mode (for digital wellbeing).
+
+3. **Security:**
+
+   * Regular security patches.
+   * App permissions and privacy controls based on Android Security.
+   * Encrypted storage, secure boot, and face/fingerprint unlock.
+
+4. **Developer Friendly:**
+
+   * Easily unlockable bootloader.
+   * Supports **root access**, custom ROMs, and mods (though this voids warranty and compromises security).
+
+5. **OTA Updates:**
+
+   * Fast and regular updates (historically more consistent on flagship models).
+   * Integrates Android's new features quickly.
+
+---
+
+### ✅ **Relevance in Digital Forensics:**
+
+1. **Custom Features May Affect Evidence Collection:**
+
+   * Customizations like **file manager, backup systems, and security apps** may change how and where data is stored.
+
+2. **Bootloader Unlocking:**
+
+   * Makes forensic imaging (physical acquisition) easier, especially using tools like ADB or custom recovery.
+
+3. **OxygenOS Logs and Diagnostic Data:**
+
+   * Logs from `/data/system/dropbox`, `/data/system/usagestats`, and **OnePlus bug report tools** can help in analysis.
+
+4. **Forensic Challenges:**
+
+   * Encryption, locked bootloaders, and newer OxygenOS versions (especially post Android 10) increase challenges in root access and data extraction.
+
+---
+
+# ADB
+
+**Android Debug Bridge (ADB)** is a **command-line tool** that facilitates communication between a **computer and an Android device**. It is part of the Android SDK (Software Development Kit) and is extensively used in **Android development, troubleshooting, and forensic investigations**.
+
+---
+
+### ✅ **Key Components of ADB:**
+
+1. **Client:**
+
+   * Runs on the development machine.
+   * Sends commands (like `adb shell`, `adb pull`, `adb install`) to the device.
+
+2. **Daemon (`adbd`):**
+
+   * Runs on the Android device.
+   * Executes commands sent by the ADB client.
+
+3. **Server:**
+
+   * Manages communication between the client and the daemon.
+   * Runs on the host machine and handles multiple connected devices.
+
+---
+
+### 🔧 **Common ADB Commands:**
+
+| Command                        | Function                               |
+| ------------------------------ | -------------------------------------- |
+| `adb devices`                  | Lists connected Android devices.       |
+| `adb shell`                    | Opens a shell interface on the device. |
+| `adb pull /path /local`        | Extracts files from the device.        |
+| `adb push /local /path`        | Sends files to the device.             |
+| `adb logcat`                   | Reads device logs.                     |
+| `adb backup -all -f backup.ab` | Creates a full device backup.          |
+| `adb install app.apk`          | Installs an APK on the device.         |
+| `adb get-state`                | Checks the current connection state.   |
+
+---
+
+### 🔍 **Use of ADB in Digital Forensics:**
+
+1. **Logical Acquisition:**
+
+   * Pulling user data from accessible partitions (e.g., `/sdcard/`, `/data/data/`).
+   * Useful for acquiring images, videos, messages (if not encrypted).
+
+2. **Device Profiling:**
+
+   * Commands like `adb shell getprop` reveal OS version, model, IMEI, and other device metadata.
+
+3. **App & System Analysis:**
+
+   * `adb shell pm list packages` shows installed apps.
+   * Helps identify suspicious or unauthorized applications.
+
+4. **Log Analysis:**
+
+   * `adb logcat` provides real-time system logs, useful for incident reconstruction.
+
+5. **Limitations:**
+
+   * **Root access is required** for full system-level access.
+   * **Locked bootloaders** and **FRP (Factory Reset Protection)** can restrict forensic access.
+
+---
+
+### ⚠️ **Security Considerations:**
+
+* ADB must be enabled in **Developer Options** on the device.
+* Forensic use requires careful chain-of-custody handling.
+* USB debugging should be disabled on production devices to avoid unauthorized access.
+
+---
+
+# Forensic Readiness & Frameworks
+
+### ✅ Cyber and Digital Forensic Readiness & Frameworks
+
+**Forensic readiness** is the proactive process of ensuring that an organization is **prepared to collect, preserve, protect, and analyze digital evidence** efficiently and legally when a security incident or investigation occurs.
+
+---
+
+### 🔍 **What is Forensic Readiness?**
+
+> **Definition:**
+> Forensic readiness is the **preparation of systems, policies, people, and processes** to enable the effective collection and use of digital evidence with minimal disruption, cost, or legal risk.
+
+---
+
+### 🎯 **Goals of Forensic Readiness:**
+
+1. **Maximize the potential use of digital evidence**
+2. **Minimize the cost of forensic investigations**
+3. **Ensure compliance with laws and regulations**
+4. **Support legal, regulatory, or disciplinary proceedings**
+5. **Enable effective incident response**
+
+---
+
+### 🛠️ **Key Components of Forensic Readiness:**
+
+| Component                         | Description                                               |
+| --------------------------------- | --------------------------------------------------------- |
+| **Logging and Monitoring**        | Collect logs from systems, networks, apps                 |
+| **Policies and Procedures**       | Define roles, responsibilities, and evidence handling     |
+| **Training and Awareness**        | Educate staff on identifying and preserving evidence      |
+| **Secure Storage**                | Use tamper-proof storage for evidence (e.g., WORM drives) |
+| **Chain of Custody**              | Maintain a documented trail of evidence handling          |
+| **Tool Validation**               | Use certified and tested forensic tools                   |
+| **Regular Readiness Assessments** | Audit systems and processes regularly                     |
+
+---
+
+### 🧰 **Common Forensic Frameworks:**
+
+#### 1. **ISO/IEC 27037:2012**
+
+* Guidance on identification, collection, acquisition, and preservation of digital evidence.
+* Defines roles like **Digital Evidence First Responder (DEFR)** and **Digital Evidence Specialist (DES)**.
+
+#### 2. **NIST SP 800-86**
+
+* Guidelines for integrating forensics into an incident response lifecycle.
+* Emphasizes preparation, detection, analysis, containment, recovery, and lessons learned.
+
+#### 3. **ENISA Forensic Readiness Guidelines**
+
+* Focuses on proactive planning and evidence-aware system design.
+* Encourages forensic readiness as part of an organization’s **cyber resilience**.
+
+#### 4. **SANS Incident Response Process (PICERL)**
+
+* **Preparation, Identification, Containment, Eradication, Recovery, Lessons Learned**
+* Forensic readiness supports the *Preparation* and *Lessons Learned* phases.
+
+#### 5. **MITRE ATT\&CK Integration**
+
+* Enables mapping of forensic evidence (e.g., logs, artifacts) to known adversary behaviors and techniques.
+* Useful in correlating forensic findings with threat actor TTPs.
+
+---
+
+### 🏢 **Forensic Readiness in Enterprises vs Law Enforcement:**
+
+| Aspect               | Enterprise                                          | Law Enforcement                  |
+| -------------------- | --------------------------------------------------- | -------------------------------- |
+| **Focus**            | Business continuity, legal defense, internal policy | Criminal evidence, prosecution   |
+| **Tools**            | SIEMs, DLP, EDR, MDM, logs                          | Cellebrite, FTK, EnCase          |
+| **Scope**            | Proactive incident detection, civil liability       | Reactive criminal investigations |
+| **Retention Policy** | Based on compliance (e.g., GDPR, HIPAA)             | Based on evidence law            |
+
+---
+
+### ✅ **Benefits of Forensic Readiness:**
+
+* Faster and cheaper investigations
+* Stronger legal position in disputes
+* Reduced business disruption
+* Improved security posture
+* Better compliance with data protection regulations
+
+---
