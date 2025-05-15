@@ -942,3 +942,5 @@ From **page 20 onward**, this document covers **UNIT V: IoT Analytics and Applic
 - [5 Layer Architecture of Internet of Things](https://www.geeksforgeeks.org/5-layer-architecture-of-internet-of-things/)
 
 - [Difference between Sensor and Actuator](https://www.geeksforgeeks.org/difference-between-sensor-and-actuator/)
+
+- [Wireless Sensor Networks](https://www.geeksforgeeks.org/wireless-sensor-network-wsn/)
