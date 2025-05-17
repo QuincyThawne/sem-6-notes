@@ -769,10 +769,6 @@ An **IoT Platform** is a suite of components that enables:
 
 ---
 
-From **page 20 onward**, this document covers **UNIT V: IoT Analytics and Applications** from the subject **22EC012 – Industrial IoT Applications**. Here's a **detailed breakdown** of the topics covered, with **clear explanations** of how everything works:
-
----
-
 ## UNIT 5
 
 ## 📊 UNIT V – IoT Analytics and Applications
